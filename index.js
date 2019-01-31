@@ -16,7 +16,7 @@ function increaseRankBy(n) {
     console.log(n)
     result[i].innerHTML += parseInt(n)
   }
-  return result
+  return result[0]
 }
 
 function deepestChild() {
