@@ -24,6 +24,7 @@ function deepestChild() {
   var curr = document.querySelector("#grand-node");
   var next = curr.children[0]
   
+  // Traverse until there are no more children left to find the deepest child using a depth-first search
   while( next ) {
     curr = next;
     next = curr.children[0]
